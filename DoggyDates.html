@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<title>Doggy Dates</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="DoggyDates.css" />
+<script src="DoggyDates.js" type="text/javascript"></script>
+
+<body class="w3-black">
+  <h1>Doggy Dates</h1>
+  <div class = "container">
+    <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'Home')" id="homeBtn">Home</button>
+
+            <button class="tablinks" onclick="openTab(event, 'Profile')" id="profileBtn">Profile</button>
+            <button class="tablinks" onclick="openTab(event, 'Search')" id="searchBtn">Search</button>
+    </div>
+
+    <div class="tabcontent" id="Home">
+      <p>This is the Home Page</p>
+    </div>
+
+    <div class="tabcontent" id="Profile">
+      <p>This is your profile page</p>
+    </div>
+
+    <div class="tabcontent" id="Search">
+      <p>Find a doggy date</p>
+    </div>
+  </div>
+
+  <script>
+    openDefault(); //opens the context tab first before any user input
+  </script>
+</body>
+</html>
